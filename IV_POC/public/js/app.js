@@ -8,9 +8,10 @@ function AppCtrl($scope,	dialogServices, dataServices)	{
 	$scope.context = 'drug1N';
 
 	// init UI data model
+	//$scope.p =
+	//	{ Age:'37',	Sex:'M', BP:'NORMAL', Cholesterol:'NORMAL', Na:'0.697', K:'0.056' };
 	$scope.p =
-		{ Age:'35',	Sex:'M', BP:'NORMAL', Cholesterol:'NORMAL', Na:'0.697', K:'0.056' };
-
+		{ SYS_TAPE_DATE_Y:'1',SYS_TAPE_DATE_M:'2',DEALER_ID:'3',UZONE_TREE:'4',T_REGION_LEVEL_2:'5',T_REGION_LEVEL_3:'6',T_REGION_CODE_2:'7',T_REGION_CODE_3:'8',T_MUNICIPALITY_CODE:'9',MAKE_ID:'10',MODEL_ID:'11' };
 	$scope.score = function()	{
 		dataServices.getScore($scope.context, $scope.p)
 		.then(

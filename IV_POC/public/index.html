@@ -56,43 +56,97 @@
         <hr class="special-border" />
         <div class="body">
       		<fieldset class="form-group">
-      			<div class="form-group">
-      				<label for="age">SYS_TAPE_DATE_Y:</label>
-      				<input type="text" class="light-color2" ng-model="p.Age" size="4" id="age" required>
-				  	<!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
-      			</div>
-      			<div class="form-group">
-      				<label>Sex:</label>
-      				<label class="radio-inline"><input type="radio" ng-model="p.Sex" value="M">Male</label>
-      				<label class="radio-inline"><input type="radio" ng-model="p.Sex" value="F">Female</label>
-      			</div>
-      			<fieldset class="form-group">
-      				<h3>Blood Test Results</h3><hr />
-      				<div class="form-group">
-      				<label>Blood Pressure:</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.BP" value="HIGH">HIGH</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.BP" value="NORMAL">NORMAL</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.BP" value="LOW">LOW</label>
-      				</div>
-      				<div class="form-group">
-      				<label>LDL (bad) Cholesterol:</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="HIGH">HIGH</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="NORMAL">NORMAL</label>
-      					<label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="LOW">LOW</label>
-      				</div>
-      				<div class="form-group">
-      					<label for="sodLvl">Sodium Level: </label>
-      					<input type="text" class="light-color2" ng-model="p.Na" size="4" id="sodLvl" required>
-      				</div>
-      				<div class="form-group">
-      					<label for="potLvl">Potassium Level: </label>
-      					<input type="text" class="light-color2" ng-model="p.K" size="4" id="potLvl" required>
-      				</div>
-      			</fieldset>
-      			<div class="form-group">
-      				<button type="button" class="btn btn-primary" ng-click="score()"><i class="glyphicon glyphicon-cloud-upload"></i>&nbsp;Score Now&nbsp;</button>
-      			</div>
-      		</fieldset>
+                  
+                      <div class="form-group">
+
+                              <label for="age">SYS_TAPE_DATE_Y:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE_Y" size="4" id="age" required>
+                              <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                          
+                              </div>
+                      <div class="form-group">
+                              
+                                 <label for="age">SYS_TAPE_DATE_M:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE_M" size="4" id="age" required>
+                                  <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                              
+                          </div>
+                  
+                      <div class="form-group">
+                  
+                              
+                                  <label for="age">DEALER_ID:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <input type="text" class="light-color2" ng-model="p.DEALER_ID" size="4" id="age" required>
+                                  <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                             
+                              </div>
+                      <div class="form-group">
+                          <label for="age">UZONE_TREE:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.UZONE_TREE" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">T_REGION_LEVEL_2:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.T_REGION_LEVEL_2" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">T_REGION_LEVEL_3:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.T_REGION_LEVEL_3" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">T_REGION_CODE_2:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.T_REGION_CODE_2" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">T_REGION_CODE_3:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.T_REGION_CODE_3" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">T_MUNICIPALITY_CODE:</label>
+                          <input type="text" class="light-color2" ng-model="p.T_MUNICIPALITY_CODE" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">MAKE_ID:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.MAKE_ID" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <div class="form-group">
+                          <label for="age">MODEL_ID:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="text" class="light-color2" ng-model="p.MODEL_ID" size="4" id="age" required>
+                          <!--<input type="text" class="light-color2" ng-model="p.SYS_TAPE_DATE" size="4" id="age" required>-->
+                      </div>
+                      <!--<fieldset class="form-group">
+            <h3>Blood Test Results</h3><hr />
+            <div class="form-group">
+            <label>Blood Pressure:</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.BP" value="HIGH">HIGH</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.BP" value="NORMAL">NORMAL</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.BP" value="LOW">LOW</label>
+            </div>
+            <div class="form-group">
+            <label>LDL (bad) Cholesterol:</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="HIGH">HIGH</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="NORMAL">NORMAL</label>
+                <label class="radio-inline"><input type="radio" ng-model="p.Cholesterol" value="LOW">LOW</label>
+            </div>
+            <div class="form-group">
+                <label for="sodLvl">Sodium Level: </label>
+                <input type="text" class="light-color2" ng-model="p.Na" size="4" id="sodLvl" required>
+            </div>
+            <div class="form-group">
+                <label for="potLvl">Potassium Level: </label>
+                <input type="text" class="light-color2" ng-model="p.K" size="4" id="potLvl" required>
+            </div>
+        </fieldset>-->
+                      <div class="form-group">
+                          <button type="button" class="btn btn-primary" ng-click="score()"><i class="glyphicon glyphicon-cloud-upload"></i>&nbsp;Score Now&nbsp;</button>
+                      </div>
+</fieldset>
       	</div>
     </div>
 
