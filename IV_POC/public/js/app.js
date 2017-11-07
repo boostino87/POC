@@ -4,7 +4,7 @@ var drug1nSample = angular.module("drug1nSample", ['ui.bootstrap', 'sampleSrv'])
 var	AppCtrl	=	['$scope',	'dialogServices', 'dataServices',
 function AppCtrl($scope,	dialogServices, dataServices)	{
 
-	// context ID is a configuration constant in this example
+	// context ID is a configuration constant in this example - deve avere il nome del modello che carichi su watson Machine Learnin - da cambiare in IVECO-MS
 	$scope.context = 'drug1N';
 
 	// init UI data model

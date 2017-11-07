@@ -21,6 +21,10 @@ var host = (process.env.VCAP_APP_HOST || process.env.HOST || 'localhost');
 var defaultBaseURL = '<from your service instance on Bluemix>';
 var defaultAccessKey = '<from your service instance on Bluemix>';
 
+//Configurazioni da utilizzare per Deploy su BlueMix
+// var defaultBaseURL = 'https://ibm-watson-ml.mybluemix.net'
+// var defaultAccesKey = 'D2XKzwBLhQYyWNbmNs2rCggkkD8rwV6ZRiYdvf0wx7XqMpVOee5hlerc5DvlqpiTHxGxQ3pIogjgEOjN0TGDTcL0h32gVzPkwMbmHXNpi+FQYUqQmv73SQJrb1WXWeZv'
+
 // VCAP_SERVICES contains all the credentials of services bound to
 // this application. For details of its content, please refer to
 // the document or sample of each service.

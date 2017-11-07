@@ -5,7 +5,7 @@ sampleSrv.factory("dataServices", ['$http',
 function($http)	{
 
 	this.getScore	=	function(context, p) {
-		/* create the scoring input object */
+		/* create the scoring input object Da cambiare andando a mettere le informazioni relative al modello che creeremo Riferimento sezione 5.4 documentazione Sample1-deploy*/ 
 		var input = {
 			tablename: 'scoreInput',
 			header: [ 'Age',	'Sex', 'BP', 'Cholesterol', 'Na', 'K' ],
